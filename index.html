@@ -6,18 +6,334 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800;900&display=swap" rel="stylesheet">
   <!-- Bootstrap CSS v5.2.0-beta1 -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
-</head>
+  <link rel="stylesheet" href="./css/style.min.css">
+  <!-- FontAwesome 6.1.1 CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
 
 <body>
-  <header>
+  <header class="header row">
     <!-- place navbar here -->
+    <nav class="nav-bar container col-12">
+      <div class="logo-brand">
+        <img class="img-fluid" src="./img/crest.png" alt="logo">
+
+      </div>
+      <div class="sub-nav">
+        <div class="dropdown-tabula">
+          <a class="dropbtn">Home</a>
+          <div class="dropdown-content1">
+            <div class="dropdown-home">
+              <div class="dropdown-conten-sub item1">
+                <a href="#">Wavy</a>
+                <a href="#">Language</a>
+                <a href="#">Music Courses</a>
+                <a href="#">Music School</a>
+                <a href="#">Ballet</a>
+              </div>
+              <div class="dropdown-conten-sub item2">
+                <a href="#">Sunny</a>
+                <a href="#">Draw & Paint</a>
+                <a href="#">Illustration</a>
+                <a href="#">Language</a>
+                <a href="#">Acting</a>
+              </div>
+              <div class="dropdown-conten-sub item3">
+                <a href="#">Shady</a>
+                <a href="#">Music</a>
+                <a href="#">Comtemporary Ballet</a>
+                <a href="#">Jazz Ballet</a>
+                <a href="#">Acting</a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dropdown-tabula">
+          <a class="dropbtn">About</a>
+          <div class="dropdown-content">
+            <a href="#">About Us</a>
+            <a href="#">About Me</a>
+            <a href="#">Our Team</a>
+            <a href="#">History</a>
+            <a href="#">Testimonials</a>
+            <a href="#">Contact</a>
+            <a href="#">Coming Soon</a>
+            <a href="#">404</a>
+
+
+          </div>
+        </div>
+        <div class="dropdown-tabula">
+          <a class="dropbtn">Courses</a>
+          <div class="dropdown-content">
+            <a href="#">Courses</a>
+            <a href="#">Single course</a>
+            <a href="#">Schedule</a>
+            <a href="#">Workshop</a>
+            <a href="#">Workshop & Events</a>
+            <a href="#">Get Quote</a>
+          </div>
+        </div>
+        <div class="dropdown-tabula">
+          <a class="dropbtn">Blog</a>
+          <div class="dropdown-content">
+            <a href="#">Standard view</a>
+            <a href="#">Columns view</a>
+            <a href="#">Simple view</a>
+            <a href="#">Single post</a>
+            <a href="#">Galleries</a>
+          </div>
+        </div>
+        <div class="dropdown-tabula">
+          <a class="dropbtn">Shop</a>
+          <div class="dropdown-content">
+            <a href="#">Products</a>
+            <a href="#">Cart</a>
+            <a href="#">Checkout</a>
+            <a href="#">My Account</a>
+
+          </div>
+        </div>
+        <div class="dropdown-tabula">
+          <a class="dropbtn">Elements</a>
+          <div class="dropdown-content2">
+            <div class="dropdown-home">
+              <div class="dropdown-conten-sub">
+                <a href="#">Base</a>
+                <a href="#">Headlines</a>
+                <a href="#">Buttons & Icons</a>
+                <a href="#">Images</a>
+                <a href="#">Organic Animation</a>
+                <a href="#">Inner Row & Colunm</a>
+                <a href="#">Countdown & Couter</a>
+
+              </div>
+              <div class="dropdown-conten-sub">
+                <a href="#">Common</a>
+                <a href="#">Price List & Progress Bar</a>
+                <a href="#">Google Maps
+                </a>
+                <a href="#">Service</a>
+                <a href="#">Accordions & Tabs</a>
+                <a href="#">Card & Event</a>
+                <a href="#">Schedule & Step Line</a>
+
+              </div>
+              <div class="dropdown-conten-sub item3">
+                <a href="#">Presentaional</a>
+                <a href="#">Team</a>
+                <a href="#">Slider</a>
+                <a href="#">Testimonials</a>
+                <a href="#">Cost Calculator</a>
+                <a href="#">Social Media</a>
+                <a href="#">Blog Layouts</a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="phone grow_box" type="tele">
+          <i class="fa fa-phone"></i>(+1) 555 234-8765
+        </button>
+        <div class="social-media">
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-youtube"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
+    </nav>
   </header>
   <main>
+    <section class="banner">
+      <div class="container">
+        <div class="row">
+          <div class="banner-left col-12 col-lg-6  ">
+            <div class="banner-content">
+              <p>ABOUT US</p>
+              <h1>The language teaching experts</h1>
+            </div>
+          </div>
+          <div class="banner-right col-lg-6 col-12">
+            <div class="banner-img">
+              <img src="./img/hero_team.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="member">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-lg-3">
+            <div class="card-member">
+              <div class="card-top">
+                <img src="./img/teacher_1.jpg">
+              </div>
+              <div class="card-body">
+                <p class="country">ITALIAN</p>
+                <h3>July Roberts</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="card-member">
+              <div class="card-top">
+                <img src="./img/teacher_2.jpg">
+              </div>
+              <div class="card-body">
+                <p class="country">FRENCH</p>
+                <h3>Jon Stone</h3>
+                <p>Nanotechnology immersion along the information.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="card-member">
+              <div class="card-top">
+                <img src="./img/teacher_3.jpg">
+              </div>
+              <div class="card-body">
+                <p class="country">JAPANESE</p>
+                <h3>Emma Stone</h3>
+                <p>Bring to the table win-win survival strategies to ensure.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="card-member">
+              <div class="card-top">
+                <img src="./img/teacher_4.jpg">
+              </div>
+              <div class="card-body">
+                <p class="country">CHINESE</p>
+                <h3>Mark Lee</h3>
+                <p>Proactive domination. At the end of the day, going forward.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="card-member">
+              <div class="card-top">
+                <img src="./img/teacher_5.jpg">
+              </div>
+              <div class="card-body">
+                <p class="country">RUSSIAN</p>
+                <h3>John Doe</h3>
+                <p>A new normal that has evolved from generation X.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="card-member">
+              <div class="card-top">
+                <img src="./img/teacher_6.jpg">
+              </div>
+              <div class="card-body">
+                <p class="country">SWEDEN</p>
+                <h3>Jane Smith</h3>
+                <p>Heading towards a streamlined cloud solution.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="card-member">
+              <div class="card-top">
+                <img src="./img/teacher_7.jpg">
+              </div>
+              <div class="card-body">
+                <p class="country">SPANISH</p>
+                <h3>Hanna Alverez</h3>
+                <p>Content in real-time will have multiple touchpoints.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="card-member">
+              <div class="card-top">
+                <img src="./img/teacher_8.jpg">
+              </div>
+              <div class="card-body">
+                <p class="country">ITALIAN</p>
+                <h3>July Roberts</h3>
+                <p>Capitalize on low hanging fruit to identify a ballpark.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact-form">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6 ">
+            <div class="contact-left">
+              <img class="img-fluid w-100" src="./img/conatct_inner.png" alt="contact">
+            </div>
+
+          </div>
+          <div class=" col-12 col-lg-6 ">
+            <div class="contact-right w-100">
+              <form>
+                <div class="row">
+                  <div class="col-12 title-contact">
+                   <h1>Find Your Course</h1> 
+                  </div>
+                </div>
+                <div class="row name-mail">
+                  <div class="contact-name col-12 col-md-6 ">
+                    <i class="fa fa-user"></i>
+                    <input type="text" placeholder="Name" required/>
+                  </div>
+                  <div class="contact-mail col-12 col-md-6 ">
+                      <i class="fa fa-envelope"></i>
+                      <input type="email" placeholder="Email" required/>
+
+                    
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="contact-course col-12">
+                    <i class="fa fa-graduation-cap"></i>
+                    <select name="courses" id="courses">
+                      <option value="English">English</option>
+                      <option value="French">French</option>
+                      <option value="Spanish">Spanish</option>
+                      <option value="German">German</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="contact-mess col-12">
+                    <i class="fa fa-comment-alt"></i>
+                    <textarea class="W-100" name="your-message" cols="40" rows="3"
+                      aria-invalid="false" placeholder="Message"></textarea>
+                  </div>
+                </div>
+                <div class="row btn-contact">
+                  <div class="col-12">
+                    <button type="submit">SEND</button>
+
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
   <footer>
     <!-- place footer here -->
@@ -25,11 +341,11 @@
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
     integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous">
-  </script>
+    </script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
     integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous">
-  </script>
+    </script>
 </body>
 
 </html>
